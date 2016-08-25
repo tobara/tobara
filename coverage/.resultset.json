@@ -1,0 +1,27 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/t_obara/Desktop/DoctorLoan/tobara/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/t_obara/Desktop/DoctorLoan/tobara/app/controllers/welcome_controller.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/t_obara/Desktop/DoctorLoan/tobara/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1472144438
+  }
+}
