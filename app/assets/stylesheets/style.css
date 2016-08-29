@@ -20,6 +20,7 @@ html {
 
 
 #bg {
+
     -moz-animation: bg 60s linear infinite;
     -webkit-animation: bg 60s linear infinite;
     -ms-animation: bg 60s linear infinite;
@@ -398,7 +399,7 @@ html {
 
     #header nav {
       margin: 1.5em 0 0 0;
-      padding-right: 40px;
+      padding-right: 38px;
     }
 
       #header nav li {
@@ -554,7 +555,7 @@ body {
 }
 
 a {
-  color: #ffab00;
+  color: #ffffff;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -887,6 +888,10 @@ p, figure {
   }
 }*/
 
+
+
+
+
 .btn-next {
   position: absolute;
   bottom: 2em;
@@ -921,7 +926,7 @@ p, figure {
   transition: 0.5s;
   font-size: 20px;
   color: rgba(255, 255, 255, 0.3);
-  color: #ffab00;
+  color: #ffffff;
 }
 @media screen and (max-width: 480px) {
   .btn-next a i {
@@ -935,7 +940,7 @@ p, figure {
   color: rgba(255, 255, 255, 0.7);
 }
 .btn-next a:hover i {
-  color: #ffab00;
+  color: #ffffff;
 }
 
 .fh5co-bio-photo img {
