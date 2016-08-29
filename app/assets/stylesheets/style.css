@@ -13,6 +13,17 @@
 }
 html {
   background: #222222;
+
+}
+
+.nav {
+
+position: absolute;
+
+overflow-y: scroll;
+
+overflow-x: hidden;
+
 }
 
 /* BG */
