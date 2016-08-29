@@ -4,9 +4,11 @@ feature "The landing page ", %{
   As a potential employer
   I want to visit the recruits website
   So that I can view their past projects
+  and other information about the candidate
   Acceptance Criteria
   [X] I am able to view information about Timothy OBara
-  [ ] I am able to view past projects
+  [X] I am able to view past projects
+
 
 } do
 
