@@ -1,4 +1,17 @@
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<%= stylesheet_link_tag 'jquery.jscrollpane.css', media: 'all' %>
+
+
+<%= javascript_include_tag 'jquery.jscrollpane.min.js' %>
+
+<script>
+$(function()
+{
+  $('.body').jScrollPane();
+});
+</script>
 
 <%= stylesheet_link_tag 'font-awesome.min.css' %>
 

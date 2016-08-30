@@ -32,4 +32,6 @@ Rails.application.config.assets.precompile += %w( modernizr-2.6.2.min.js )
 Rails.application.config.assets.precompile += %w( cookie_style.js )
 Rails.application.config.assets.precompile += %w( jquery.min.js )
 Rails.application.config.assets.precompile += %w( jquery.cookie.js )
+Rails.application.config.assets.precompile += %w( jquery.jscrollpane.css )
+Rails.application.config.assets.precompile += %w( jquery.jscrollpane.min.js )
 
