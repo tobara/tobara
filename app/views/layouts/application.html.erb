@@ -2,9 +2,9 @@
 <html>
 <head>
   <title>Tobara</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
   <%= csrf_meta_tags %>
+  <%= javascript_include_tag 'viewport-units-buggyfill.js' %>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <script>
@@ -45,7 +45,7 @@ if ( $.cookie('styleCookie') === 'style-light.css') {
 <%= javascript_include_tag 'jquery.flexslider-min.js' %>
 
   <!-- Viewport Units Buggyfill -->
-<%= javascript_include_tag 'viewport-units-buggyfill.js' %>
+
 
 
 
