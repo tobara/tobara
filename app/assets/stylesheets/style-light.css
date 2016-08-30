@@ -1,17 +1,17 @@
-@font-face {
+/*@font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
-}
+}*/
 /* =======================================================
 *
 * 	Template Style
 *	Edit this section
 *
 * ======================================================= */
-html {
+/*html {
   background-color: #eeeeee;
 }
 
@@ -971,6 +971,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .js .animate-box {
   opacity: 0;
-}
+}*/
 
 /*# sourceMappingURL=style-light.css.map */
