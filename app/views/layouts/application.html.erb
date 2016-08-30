@@ -7,14 +7,7 @@
   <%= javascript_include_tag 'viewport-units-buggyfill.js' %>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<script>
 
-if ( $.cookie('styleCookie') === 'style-light.css') {
-  $('html, body').css('background', '#eeeeee');
-} else if ($.cookie('styleCookie') === 'style.css') {
-  $('html, body').css('background', '#222222');
-}
-</script>
 <%= stylesheet_link_tag 'style-light.css' %>
 <%= stylesheet_link_tag 'font-awesome.min.css' %>
 
