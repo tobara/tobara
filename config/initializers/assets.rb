@@ -35,3 +35,4 @@ Rails.application.config.assets.precompile += %w( jquery.cookie.js )
 Rails.application.config.assets.precompile += %w( google_map.js )
 
 
+

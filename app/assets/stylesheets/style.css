@@ -8,6 +8,14 @@
 *
 * ======================================================= */
 
+
+#aligner {
+  text-align:center;
+  font-size: inherit;
+  display:inline-block;
+}
+
+
 #header_padding {
   padding-top: 20%;
 }
