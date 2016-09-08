@@ -40,7 +40,7 @@ function init() {
             new google.maps.Marker({
                 position: latlng,
                 map: map,
-                icon: 'images/loc.png'
+                icon: 'assets/loc3.png'
             });
 
         });
