@@ -1336,7 +1336,7 @@ p, figure {
 }
 
 .flexslider {
-  background: none;
+  background: #000000;
   border: none;
 }
 .flexslider img {
