@@ -4682,7 +4682,8 @@ tbody.collapse.in {
   padding-right: 15px;
   padding-left: 15px;
   border-top: 1px solid transparent;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  /*box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);*/
+  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0);
   -webkit-overflow-scrolling: touch;
 }
 .navbar-collapse:before, .navbar-collapse:after {
