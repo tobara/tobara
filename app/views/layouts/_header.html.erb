@@ -1,7 +1,7 @@
   <div id="fh5co-page">
     <nav id="fh5co-nav" role="navigation">
       <ul>
-        <li class="animate-box fh5co-active"> <%= link_to 'Home', root_path, class: 'transistion' %><!-- <a href="index.html" class="transition">Home</a> --></li>
-        <li class="animate-box"><a href="about.html" class="transition">Bio</a></li>
+        <li class="animate-box <%= 'fh5co-active' if current_page?(root_path) %>"> <%= link_to 'Home', root_path, class: 'transistion' %></li>
+        <li class="animate-box <%= 'fh5co-active' if current_page?(about_path) %>"> <%= link_to 'Bio', about_path, class: 'transistion' %></li>
       </ul>
     </nav>
