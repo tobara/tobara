@@ -9,4 +9,14 @@ RSpec.configure do |config|
   config.mock_with :rspec do |mocks|
     mocks.verify_partial_doubles = true
   end
+
+config.before(:each, webkit: true) do
+    Capybara.javascript_driver = :webkit
+end
+
+config.after(:each, webkit: true) do
+    Capybara.javascript_driver = :selenium
+    # or whatever your preferred driver is
+end
+
 end
