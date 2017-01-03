@@ -24,7 +24,7 @@ module Tobara
     config.assets.paths << Rails.root.join("app", "assets", "fonts")
     config.active_record.raise_in_transactional_callbacks = true
     config.assets.paths << "#{Rails.root}/app/assets/files"
-
+    config.secret_key_base = '0b371eb4fc7063ba4111a154571eff906252ccbb9c462b90196fe4e981119f137d1e39403396081815e3219f06b875f6c101944c185905fa9b8b844db305abf7'
   end
 end
 
