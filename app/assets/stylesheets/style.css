@@ -14,7 +14,7 @@ html{background:#000000;}
 @keyframes bg{0%{-moz-transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0);}
 100%{-moz-transform:translate3d(-2250px,0,0);-webkit-transform:translate3d(-2250px,0,0);-ms-transform:translate3d(-2250px,0,0);transform:translate3d(-2250px,0,0);}
 }
-#bg{background-size:2250px auto;width:6750px;}
+#bg{background-size:auto;width:6750px;}
 .icon{text-decoration:none;position:relative;}
 .icon:before{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-family:FontAwesome;font-style:normal;font-weight:normal;text-transform:none !important;}
 .icon > .label{display:none;}
