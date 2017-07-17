@@ -3018,6 +3018,10 @@ table th[class*="col-"] {
   min-height: 0.01%;
 }
 @media screen and (max-width: 767px) {
+  .map {
+    max-width: 418px;
+    background-size:contain;
+  }
   .table-responsive {
     width: 100%;
     margin-bottom: 15px;
@@ -3542,7 +3546,7 @@ select[multiple].input-lg,
 .has-feedback label.sr-only ~ .form-control-feedback {
   top: 0;
 }
-
+Web Developer•Big Data Enthusiast•Extraterrestrial
 .help-block {
   display: block;
   margin-top: 5px;
@@ -3551,6 +3555,10 @@ select[multiple].input-lg,
 }
 
 @media (min-width: 768px) {
+  .map {
+    min-width: 418px;
+
+  }
   .form-inline .form-group {
     display: inline-block;
     margin-bottom: 0;
