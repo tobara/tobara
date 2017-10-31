@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-feature "The bio page ", %{
+feature 'The bio page', %{
   As a potential employer
   I want to visit the bio page from their landing page
   So that I can learn more about the candidate
@@ -15,7 +15,7 @@ feature "The bio page ", %{
 } do
 
 
-  scenario "employer is able to view bio page" do
+  scenario 'employer is able to view bio page' do
     visit root_path
     click_link 'Bio'
 
@@ -24,7 +24,7 @@ feature "The bio page ", %{
     expect(page).not_to have_content('Extraterrestrial')
   end
 
-  scenario "employer visits bio for information" do
+  scenario 'employer visits bio for information' do
     visit about_path
     click_link 'See the detail'
 
@@ -34,7 +34,7 @@ feature "The bio page ", %{
   end
 
 
-  scenario "employer can view resume" do
+  scenario 'employer can view resume' do
     visit about_path
     click_link 'See the detail'
 

@@ -1,10 +1,9 @@
 require 'rails_helper'
 
 feature "Download Resume ", %{
-  As a potential employer
-  I want to download the candidates resume
-  So that I can learn more about their experience
-  And their skills
+  As as User
+  I want to download their resume
+  So that I can learn more.
 
   Acceptance Criteria
   [X] I am able to download their resume
@@ -15,7 +14,7 @@ feature "Download Resume ", %{
 } do
 
 
-  scenario "employer is able to download pdf" do
+  scenario 'User is able to download pdf' do
     Capybara.javascript_driver = :webkit
     visit about_path
     click_link 'Download Resume'
