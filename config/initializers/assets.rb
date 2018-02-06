@@ -33,7 +33,8 @@ Rails.application.config.assets.precompile += %w( style-light.css )
 Rails.application.config.assets.precompile += %w( jquery.min.js )
 Rails.application.config.assets.precompile += %w( jquery.cookie.js )
 Rails.application.config.assets.precompile += %w( google_map.js )
-
+Rails.application.config.assets.precompile += %w( text-generator.js )
+Rails.application.config.assets.precompile += %w( jquery.shuffleLetters.js )
 
 
 
