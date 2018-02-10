@@ -29,13 +29,15 @@ html{background:#000000;}
   background-size:3000px;
   width:6750px;
   background-position: 20% 30%;
+  overflow-x: hidden;
   }
 }
 
 
 
 .body {
-  background: #000000
+  background: #000000;
+  overflow-x: hidden;
 }
 
 #my_port_pressed {
