@@ -178,8 +178,8 @@ p, figure{margin-bottom:1.5em;}
 @media screen and (max-width:768px){#fh5co-header .fh5co-text-wrap{height:auto !important;padding:3em 0;height:100vh;width:100vw;content:'viewport-units-buggyfill; height:100vh; width: 100vw';}
 }
 #fh5co-header .fh5co-intro-text{-webkit-transform:skewY(-7deg);-moz-transform:skewY(-7deg);-ms-transform:skewY(-7deg);-o-transform:skewY(-7deg);transform:skewY(-7deg);text-align:center;}
-.btn-next{position:static;bottom:2em;left:50%;margin-left: 0px !important;}
-@media screen and (max-width:480px){.btn-next{bottom:4px;}
+.btn-next{position:absolute;bottom:2em;left:50%;/*margin-left: 0px !important;*/}
+@media screen and (max-width:480px){.btn-next{bottom:-25px;}
 }
 .btn-next a{display:block;text-align:center;-webkit-transition:0.5s;-o-transition:0.5s;transition:0.5s;border-bottom:none;}
 .btn-next a span{display:block;color:rgba(255, 255, 255, 0.3);font-size:18px;letter-spacing:1px;font-weight:300;-webkit-transition:0.5s;-o-transition:0.5s;transition:0.5s;}
@@ -191,7 +191,7 @@ p, figure{margin-bottom:1.5em;}
 .btn-next a:hover i{color:#ffffff;}
 .fh5co-bio-photo img{max-width:100%;-webkit-box-shadow:6px 24px 61px -12px rgba(0, 0, 0, 0.49);-moz-box-shadow:6px 24px 61px -12px rgba(0, 0, 0, 0.49);-ms-box-shadow:6px 24px 61px -12px rgba(0, 0, 0, 0.49);-o-box-shadow:6px 24px 61px -12px rgba(0, 0, 0, 0.49);box-shadow:6px 24px 61px -12px rgba(0, 0, 0, 0.49);-webkit-transition:0.5s;-o-transition:0.5s;transition:0.5s;-webkit-border-radius:7px;-moz-border-radius:7px;-ms-border-radius:7px;border-radius:7px;}
 .fh5co-project{height:100vh;width:100vw;content:'viewport-units-buggyfill; height:100vh; width:100vw';display:table;position:relative;}
-/*.fh5co-project:before{content:"";position:absolute;top:0;right:0;left:0;height:2px;background:rgba(255, 255, 255, 0.03);width:101%;-webkit-transform:skewY(-7deg);-moz-transform:skewY(-7deg);-ms-transform:skewY(-7deg);-o-transform:skewY(-7deg);transform:skewY(-7deg);}*/
+.fh5co-project:before{content:"";position:absolute;top:0;right:0;left:0;height:2px;background:rgba(255, 255, 255, 0.03);width:101%;-webkit-transform:skewY(-7deg);-moz-transform:skewY(-7deg);-ms-transform:skewY(-7deg);-o-transform:skewY(-7deg);transform:skewY(-7deg);}
 .fh5co-project.no-border{border-bottom:none;}
 .fh5co-project.no-border:before{display:none;}
 
