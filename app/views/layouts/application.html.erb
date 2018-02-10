@@ -5,6 +5,7 @@
 
   <%= csrf_meta_tags %>
   <%= javascript_include_tag 'viewport-units-buggyfill.js' %>
+  <%= javascript_include_tag 'typeit.js' %>
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 
 <link rel="apple-touch-icon" sizes="57x57" href="assets/apple-icon-57x57.png">
@@ -57,9 +58,6 @@
 
   <!-- Viewport Units Buggyfill -->
 
-
-
-
   <!-- Main JS  -->
 <%= javascript_include_tag 'main.js' %>
 
@@ -75,9 +73,10 @@
 <!-- styles needed by jScrollPane -->
 
 </head>
-  <div id="bg"></div>
+
 <body>
  <%= render 'layouts/header' %>
+ <div id="bg"></div>
 <%= yield %>
 
 </body>
