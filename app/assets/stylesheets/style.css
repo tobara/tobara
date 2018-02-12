@@ -282,6 +282,12 @@ p, figure{margin-bottom:1.5em;}
   #top_adjust {
     margin-top:10vh;
   }
+  #h1_container {
+    min-height: 120px;
+  }
+  #h2_container {
+    min-height: 33px;
+  }
 }
 .btn-cta{padding:20px 30px !important;width:200px;font-size:18px;}
 @media screen and (max-width:480px){.btn-cta{padding:10px 30px !important;width:100%;}
