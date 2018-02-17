@@ -24,7 +24,7 @@ html{background:#000000;}
     background-position: 20% 30%;
   }
 }
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 480px) {
   #bg {
   background-size:3000px;
   width:6750px;
@@ -181,7 +181,7 @@ p, figure{margin-bottom:1.5em;}
 }
 #fh5co-header .fh5co-intro-text{-webkit-transform:skewY(-7deg);-moz-transform:skewY(-7deg);-ms-transform:skewY(-7deg);-o-transform:skewY(-7deg);transform:skewY(-7deg);text-align:center;}
 .btn-next{position:absolute;bottom:2em;left:50%;/*margin-left: 0px !important;*/}
-@media screen and (max-width:480px){.btn-next{bottom:-25px;}
+@media screen and (max-width:767px){.btn-next{bottom:-25px;}
 }
 .btn-next a{display:block;text-align:center;-webkit-transition:0.5s;-o-transition:0.5s;transition:0.5s;border-bottom:none;}
 .btn-next a span{display:block;color:rgba(255, 255, 255, 0.3);font-size:18px;letter-spacing:1px;font-weight:300;-webkit-transition:0.5s;-o-transition:0.5s;transition:0.5s;}
