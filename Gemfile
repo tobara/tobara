@@ -15,10 +15,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'rails_12factor'
 gem 'passenger'
 
+
 group :development, :test do
   gem 'byebug'
   gem 'pry-rails'
-  gem 'rspec-rails'
 end
 
 group :development do
