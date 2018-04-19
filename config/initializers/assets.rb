@@ -27,6 +27,10 @@ Rails.application.config.assets.precompile += %w( google_map.js )
 Rails.application.config.assets.precompile += %w( text-generator.js )
 Rails.application.config.assets.precompile += %w( text-generator-bio.js )
 Rails.application.config.assets.precompile += %w( jquery.shuffleLetters.js )
-
-
-
+Rails.application.config.assets.precompile += %w( vivus.js )
+Rails.application.config.assets.precompile += %w( draw.js )
+Rails.application.config.assets.precompile += %w( on-click.js )
+Rails.application.config.assets.precompile += %w( logo.css )
+Rails.application.config.assets.precompile += %w( jquery.inview.min.js )
+Rails.application.config.assets.precompile += %w( size-canvas.js )
+Rails.application.config.assets.precompile += %w( logo-writer.js )
