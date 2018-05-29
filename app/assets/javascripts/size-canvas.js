@@ -102,7 +102,7 @@ var setTimingExample = setInterval(function() {
     animateTurtle();
 
     // theTurtle.innerHTML += '<mpath xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#theMotionPath1"/>';
-    obt3 = new Vivus('timing-example', {type: 'oneByOne', duration: 2500});
+    obt3 = new Vivus('timing-example', {type: 'oneByOne', duration: 250});
 
     fadeIn.insertAdjacentHTML('beforeend', '<animate attributeName="opacity" fill="freeze" attributeType="CSS" begin="10s" dur="15s" from="0" to="1"/>');
 

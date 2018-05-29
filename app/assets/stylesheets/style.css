@@ -47,7 +47,8 @@
   #bg {
     background-size:auto;
     width:6750px;
-    background-position: 20% 30%;
+    background:#000000 url(/assets/bg1.jpg) no-repeat bottom left;
+
   }
 }
 @media screen and (min-device-width: 480px) {
