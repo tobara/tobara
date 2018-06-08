@@ -45,10 +45,13 @@
 
 @media screen and (max-device-width: 767px) {
   #bg {
-    background-size:auto;
-    width:6750px;
-    background:#000000 url(/assets/bg1.jpg) no-repeat bottom left;
-    height: 2000px;
+/*    background-size:auto;
+    width:3961px;
+    background:#000000 url(/assets/trybg2.png) no-repeat bottom left;
+    height: 1440px;*/
+    width: 3961px;
+    background: #000000 url(/assets/trybg2.png) no-repeat center;
+    height: 1440px;
 
   }
 }
