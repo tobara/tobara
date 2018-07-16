@@ -1,3 +1,41 @@
+
+@-webkit-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 30;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 30;
+  animation:fadeIn ease-in 30;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 30)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:30s;
+  -moz-animation-duration:30s;
+  animation-duration:30s;
+}
+
+.fade-in {
+-webkit-animation-delay: 35s;
+-moz-animation-delay: 35s;
+animation-delay: 35s;
+}
+
+
+
+#thumbs {
+  position:absolute;
+  margin:-50px;
+}
+
+
+#bcLogo {
+  margin: 175px 0;
+}
+
 #sizer {
 
 }
@@ -45,14 +83,25 @@ svg * {
   background-image:url('assets/l3-static.png');
 }*/
 
-#svg-container canvas, #timing-example {
-  position: absolute;
+
+.new-container {
+    position: relative;
+}
+#img2, .svgContainer {
+    position: absolute;
+
 }
 
-#svg-container {
-  position:relative;
-  z-index: 2;
+.img2 {
+    z-index: 0;
+    height:100%;
+    width:100%;
 }
+
+.svgContainer {
+    z-index: 1;
+}
+
 .obturateur {
   stroke-width: 3;
   stroke-miterlimit: 10;
