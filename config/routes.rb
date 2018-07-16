@@ -2,6 +2,6 @@ Rails.application.routes.draw do
 
 root 'welcome#index'
 get 'about' => 'welcome#about'
-get 'logowriter' => 'welcome#logowriter'
+get 'logowriter' => 'welcome#aboutDev'
 
 end
