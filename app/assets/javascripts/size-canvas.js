@@ -81,7 +81,7 @@ var maxImage = 6;
 var setTimingExample = setInterval(function() {
     nextFrame("/assets/logo-0" + (counter + 1) + ".png");
     if (counter + 1 == maxImage) {
-        $().ready(init)
+        init();
         clearInterval(setTimingExample);
     } else {
         ++counter;
